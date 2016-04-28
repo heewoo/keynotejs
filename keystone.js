@@ -25,7 +25,9 @@ keystone.init({
 	'auto update': true,
 	'session': true,
 	'auth': true,
-	'user model': 'Y'
+	'user model': 'Y',
+	'cookie secret' :'has256',
+	'cloudinary config': 'cloudinary://api_key:api_secret@cloud_name'
 
 });
 
